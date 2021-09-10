@@ -9,3 +9,8 @@ una forma más optimizada de administrar los datos posibilitando la generación 
 informes y estadísticas acertadas respecto al tiempo y rendimiento en la fundación
 ECOTEC.
 
+![alt text](https://github.com/martinalmeida/gestion-monitoreo-camillas-por-QR/blob/master/login.png?raw=true)
+![alt text](https://github.com/martinalmeida/gestion-monitoreo-camillas-por-QR/blob/master/dash.png?raw=true)
+![alt text](https://github.com/martinalmeida/gestion-monitoreo-camillas-por-QR/blob/master/insertar.png?raw=true)
+![alt text](https://github.com/martinalmeida/gestion-monitoreo-camillas-por-QR/blob/master/celular.png?raw=true)
+![alt text](https://github.com/martinalmeida/gestion-monitoreo-camillas-por-QR/blob/master/celular2.png?raw=true)
