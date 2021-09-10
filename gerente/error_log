@@ -1,0 +1,9 @@
+[04-Mar-2021 11:50:53 America/Bogota] PHP Notice:  Undefined index: gerente in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/insertar_bd2.php on line 24
+[05-Mar-2021 08:45:49 America/Bogota] PHP Notice:  Undefined index: gerente in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/insertar_bd2.php on line 24
+[05-Mar-2021 09:58:40 America/Bogota] PHP Notice:  Undefined index: gerente in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/insertar_bd2.php on line 24
+[05-Mar-2021 12:13:13 America/Bogota] PHP Notice:  Undefined index: gerente in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/insertar_bd2.php on line 24
+[04-May-2021 23:18:35 America/Bogota] PHP Notice:  Undefined index: s_usuario in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/vistas/vista_superior.php on line 4
+[04-May-2021 23:18:35 America/Bogota] PHP Notice:  Undefined index: s_usuario in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/home_gerente.php on line 90
+[04-May-2021 23:18:35 America/Bogota] PHP Notice:  Undefined index: id in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/home_gerente.php on line 149
+[04-May-2021 23:18:35 America/Bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/home_gerente.php on line 151
+[04-May-2021 23:18:35 America/Bogota] PHP Notice:  Trying to access array offset on value of type null in /home/innoam/ECOSOFT.fundacionecotec.org/gerente/home_gerente.php on line 152

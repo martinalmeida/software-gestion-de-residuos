@@ -1,0 +1,631 @@
+
+/* Scroll Personalizado*/
+
+body::-webkit-scrollbar{
+  width: 12px;
+  background-color: #F1F1F1;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #B2BABB;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background-color: #A8A8A8;
+}
+
+
+
+
+.bg-gradient-primary {
+  background-color: #76a03f !important;
+  background-image: linear-gradient(180deg, #76a03f 10%, #76a03f 100%) !important;
+  background-size: cover !important;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+/*                                          Estilos Formulario de GERENTE REGISTRAR USUARIO                                           */
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+#custom-button {
+  padding: 5px;
+  color: white;
+  background-color: #95A5A6;
+  border: 1px solid #95A5A6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: #5F6A6A;
+  border-color: #95A5A6;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+/* Estilos Bonton Registrar*/
+.botonreg{
+	background-color: #76a03f;
+	color: #fff;
+	border: 1px solid #76a03f;
+  	border-radius: 10px;
+  	padding: 8px;
+  	width: 10rem;
+  	outline: none !important;
+}
+
+.botonreg:hover{
+  color: #fff;
+  border-color: #217b1c !important;
+  box-shadow: 2px 2px 10px rgba(33, 33, 33, 0.5);
+}
+
+.btn-outline-default1 {
+    color: #979A9A !important;
+    background-color: transparent !important;
+    border: 1px solid #979A9A !important;
+}
+
+.btn-outline-default1:hover {
+    color: #76a03f !important;
+    background-color: transparent !important;
+    border: 2px solid #76a03f !important;
+}
+
+
+/* Estilos del Formulario de Registro */
+
+.user-img-2{
+  margin-top: -60px;
+  margin-bottom: 35px;
+}
+
+.main-section-2{
+  margin: 0 auto;
+  margin-top: 12%;
+  padding: 0;
+  border: solid white;
+  border-radius: 15px;
+}
+
+
+.in-put:focus{
+  outline: hidden !important;
+  border: border solid !important;
+  border-color: #76a03f !important;
+  box-shadow: 1px 0px 3px 3px rgba(118, 160, 63, 0.5) !important; 
+}
+
+.boton2{
+  border-radius: 25px;
+  opacity: .85;
+  background-color: #76a03f !important;
+  padding: .60rem 1.14rem;
+  font-size: 12px;
+}
+
+
+#registertxt{
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+/*                                          Estilos Formulario de Registrar Clientes                                                  */
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.color{
+	color: #000;
+}
+
+.rojo{
+	color: #a94442;
+}
+
+
+
+/*  Estilos del Boton de Registrar Cliente  */
+
+.btnagregar{
+	background-color: #76a03f !important;
+	border-color: #76a03f;
+	color: #fff;
+}
+
+.btnagregar:hover{
+  color: #fff;
+  border-color: #217b1c !important;
+  box-shadow: 2px 2px 10px rgba(33, 33, 33, 0.5) !important;
+}
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -7.5px;
+  margin-left: -7.5px;
+}
+
+.small-box {
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.small-box > .inner {
+  padding: 10px;
+}
+
+.small-box > .small-box-footer {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  padding: 3px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.small-box > .small-box-footer:hover {
+  background: rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.small-box h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .col-xl-2 .small-box h3,
+  .col-lg-2 .small-box h3,
+  .col-md-2 .small-box h3 {
+    font-size: 1.6rem;
+  }
+  .col-xl-3 .small-box h3,
+  .col-lg-3 .small-box h3,
+  .col-md-3 .small-box h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-2 .small-box h3,
+  .col-lg-2 .small-box h3,
+  .col-md-2 .small-box h3 {
+    font-size: 2.2rem;
+  }
+  .col-xl-3 .small-box h3,
+  .col-lg-3 .small-box h3,
+  .col-md-3 .small-box h3 {
+    font-size: 2.2rem;
+  }
+}
+
+.small-box p {
+  font-size: 1rem;
+}
+
+.small-box p > small {
+  color: #f8f9fa;
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.small-box h3,
+.small-box p {
+  z-index: 5;
+}
+
+.small-box .icon {
+  color: rgba(0, 0, 0, 0.15);
+  z-index: 0;
+}
+
+.small-box .icon > i {
+  font-size: 90px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: all 0.3s linear;
+}
+
+.small-box .icon > i.fa, .small-box .icon > i.fas, .small-box .icon > i.far, .small-box .icon > i.fab, .small-box .icon > i.glyphicon, .small-box .icon > i.ion {
+  font-size: 70px;
+  top: 20px;
+}
+
+.small-box:hover {
+  text-decoration: none;
+}
+
+.small-box:hover .icon > i {
+  font-size: 95px;
+}
+
+.small-box:hover .icon > i.fa, .small-box:hover .icon > i.fas, .small-box:hover .icon > i.far, .small-box:hover .icon > i.fab, .small-box:hover .icon > i.glyphicon, .small-box:hover .icon > i.ion {
+  font-size: 75px;
+}
+
+@media (max-width: 767.98px) {
+  .small-box {
+    text-align: center;
+  }
+  .small-box .icon {
+    display: none;
+  }
+  .small-box p {
+    font-size: 12px;
+  }
+}
+
+/*reloj*/
+
+main {
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 20px solid white;
+    box-shadow: 2px 2px 10px rgba(33, 33, 33, 0.5);
+    position: relative;
+}
+
+.contenedor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.manecilla {
+    box-shadow: 2px 2px 5px rgba(33, 33, 33, 0.5);
+    margin: auto;
+    height: 6rem;
+    width: 3px;
+    background: crimson;
+    transform-origin: center bottom;
+}
+
+#hora {
+    background: greenyellow;
+}
+
+#minuto {
+    background: blueviolet;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/*                                          Estilos Tablas de empresas y usuarios                                          */
+/* --------------------------------------------------------------------------------------------------------------------- - */
+
+
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #76a03f !important;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.sorting_asc{
+  background: #76a03f;
+  color: #fff;
+}
+
+.btn-success1{
+  background-color: #76a03f;
+  color: #fff;
+}
+
+.btn-success1:hover{
+  border-color: #217b1c;
+  color: #fff;
+}
+
+.custom-select:focus{
+  border: border solid !important;
+  border-color: #76a03f !important;
+  box-shadow: 1px 0px 3px 3px rgba(118, 160, 63, 0.5) !important;
+}
+
+.form-control-sm:focus{
+  border: border solid !important;
+  border-color: #76a03f !important;
+  box-shadow: 1px 0px 3px 3px rgba(118, 160, 63, 0.5) !important;
+}
+
+label{
+  color: #000;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/*                                          Estilos Modificar Usuarios y Empresas                                          */
+/* --------------------------------------------------------------------------------------------------------------------- - */
+
+
+
+
+
+/* Estilos Bonton Cancelar*/
+.botoncan{
+  background-color: #dc3545;
+  margin: 4px;
+  color: #fff;
+  border: 1px solid #dc3545;
+    border-radius: 10px;
+    padding: 8px;
+    width: 10rem;
+    outline: none !important;
+}
+
+.botoncan:hover{
+  border-color: #E11212;
+  color: #fff;
+  box-shadow: 2px 2px 10px rgba(33, 33, 33, 0.5);
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/*                                          Estilos MODAL CERRAR SESIÓN                                          */
+/* --------------------------------------------------------------------------------------------------------------------- - */
+
+
+.modal-content{
+  opacity: none;
+  background-color: #fff;
+  border-radius: 10px !important;
+}
+
+.modal-title{
+  color: #555;
+}
+
+.modal-body{
+  color: #545454;
+}
+
+.btn-can{
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  text-transform: none;
+}
+
+.btn-can:hover{
+  background-color: #c82333 !important; 
+  border-color: #c82333 !important;
+}
+
+.btn-cerrar{
+  background-color: #76a03f !important;
+  border-color: #76a03f !important;
+  text-transform: none;
+}
+
+.btn-cerrar:hover{
+  background-color: #96c311 !important; 
+  border-color: #96c311 !important;
+}
+
+
+/* color del Footer (pie de pagina)*/
+.derechos{
+ font-weight: bold;
+  color: #76a03f;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/*                                          Estilos RELOJ                                        */
+/* -------------------------------------------------------------------------------------------- */
+
+
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+.fecha {
+  font-family: arial;
+  text-align: center;
+  font-size: 1.0em;
+  background: rgba(210,105,30);
+  color: #fff;
+  padding-top: 3px;
+  border-radius: 0.25rem;
+}
+.reloj {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(255,255,255);
+  color: #d2691e;
+  border-radius: 0.25rem;
+}
+.reloj .cajaSegundos {
+  display: inline-block;  
+}
+.reloj .ampm, .reloj .segundos{
+  display: block;
+}
+
+.contenedor1{
+  border-radius: 0.25rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/*                            Estilos Tarjetas de usuarios y empresas                            */
+/* -------------------------------------------------------------------------------------------- */
+
+
+.bg-success1{
+  background-color: rgba(255,255,255) !important;
+}
+
+.bg-info1{
+  background-color: rgba(255,255,255) !important;
+}
+
+.small-box-footer{
+  background-color: rgba(52,73,94) !important;
+  color: rgba(255,255,255) !important;
+}
+
+.detalle{
+  background-color: rgba(22,160,134) !important;
+  color: rgba(255,255,255) !important;
+}
+
+.pa{
+  padding: 26px !important;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/*                            Estilos del boton editar firma                                     */
+/* -------------------------------------------------------------------------------------------- */
+
+.botonfirm{
+  background-color: #95A5A6;
+  color: #fff;
+  border: 1px solid #95A5A6;
+  border-radius: 10px;
+  padding: 8px;
+  width: 10rem;
+  outline: none !important;
+}
+
+.botonfirm:hover{
+  background-color: #5F6A6A;
+  border-color: #95A5A6;
+}
+
+.modalp{
+  padding: 20px;
+}
+
+.firmalis{
+  background-color: #76a03f !important;
+  border-color: #76a03f !important;
+  color: #fff !important;
+}
+
+.firmalis:hover{
+  border-color: #217b1c !important;
+}
+
+.close{
+  outline: none !important;
+}
+
+
+@media (max-width: 855px){
+  .reloj{
+    font-size: 1.5em;
+  }
+}
+
+
+/* --------------------------- Estilos deL BOTON DE DESCARGA DE TABLAS EN PDF Y EXCEL-----------------------*/
+
+.button_excel{
+  background-color: #206f43;
+  outline: none !important;
+  border: none;
+  border-radius: 6px;
+      color: white;
+      padding: 4px 9px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 12px;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+}
+
+.button_excel:hover{
+  background-color: #206f43;
+  border-color: #fff;
+  color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.button_pdf{
+  background-color: #ad0b00;
+  outline: none !important;
+  border: none;
+  border-radius: 6px;
+      color: white;
+      padding: 4px 9px;
+      text-align: center;
+      font-size: 16px;
+      margin: 3px 1px;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+}
+
+.button_pdf:hover{
+  background-color: #ad0b00;
+  border-color: #fff;
+  color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* ------------------------- Titulos descargar PDF -----------------------*/
+
+.vista-previa{
+  display: inline-block;
+  position: relative;
+  color: #76a03f;
+  border-color: 2px solid #76a03f;
+  font-weight: 28px;
+}
+
+.vista-previa::after, .vista-previa::before{
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: #76a03f;
+  top: 0.6em;
+}
+
+.vista-previa::before{
+  left: 140px;
+}
+
+.vista-previa::after{
+  right: 140px;
+}
